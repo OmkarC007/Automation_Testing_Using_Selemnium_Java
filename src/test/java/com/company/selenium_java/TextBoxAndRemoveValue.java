@@ -24,7 +24,7 @@ public class TextBoxAndRemoveValue {
 		System.setProperty("webdriver.gecko.driver","C:\\Selenium\\geckodriver-64bit\\geckodriver.exe");
 		WebDriver driver = new FirefoxDriver();	
 		driver.get("https://www.facebook.com/");
-		driver.manage().window().maximize();
+		driver.manage().window().maximize(); 
 		Thread.sleep(2000);
 		driver.findElement(By.xpath("//input[@type='text']")).sendKeys("OMKAR@gmail.com");
 		Thread.sleep(2000);
