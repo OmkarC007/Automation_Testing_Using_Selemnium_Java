@@ -24,7 +24,7 @@ public class Launch_Browser {
 		String pageTitle1 = driver.getTitle();
 		System.out.println("the title of the page is :"+ pageTitle1);
 		Thread.sleep(2000);
-		driver.navigate().back();
+		driver.navigate().back(); 
 		Thread.sleep(3000);
 		driver.navigate().refresh();
 		driver.close();
