@@ -5,7 +5,7 @@
     <classes>
       <class name="com.company.selenium_java.JS_Executors">
         <methods>
-          <include name="ScrollDownTo_SpecificElemnt"/>
+          <include name="enterText_intoDisabledTextbox"/>
         </methods>
       </class> <!-- com.company.selenium_java.JS_Executors -->
     </classes>

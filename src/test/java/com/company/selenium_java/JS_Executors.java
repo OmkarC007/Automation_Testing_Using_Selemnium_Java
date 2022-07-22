@@ -87,6 +87,6 @@ public class JS_Executors {
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("window.scrollBy("+x+","+y+")");
 		Thread.sleep(3000);
-		element.click();
+		element.click(); 
 	}
 }
