@@ -12,7 +12,7 @@ public class FaceBook_SignUp {
 	public void login() throws InterruptedException{		
 		System.setProperty("webdriver.gecko.driver","C:\\Selenium\\geckodriver-64bit\\geckodriver.exe");
 		WebDriver driver = new FirefoxDriver();	
-		driver.get("https://www.facebook.com/");
+		driver.get("https://www.facebook.com/"); 
 		Thread.sleep(1000);
 			
 //********************** For Register**********************************************
