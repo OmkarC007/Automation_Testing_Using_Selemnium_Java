@@ -7,7 +7,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.Test;
 
-public class JS_Executors {
+public class JS_Executors { 
 	@Test
 	public void enterText_intoDisabledTextbox() throws InterruptedException {
 		System.setProperty("webdriver.gecko.driver","C:\\Selenium\\geckodriver-64bit\\geckodriver.exe");
@@ -72,7 +72,7 @@ public class JS_Executors {
 		Thread.sleep(3000);
 	}
 	@Test
-	public void ScroolDownToBottomOfPage() throws InterruptedException {
+	public void ScrollDownToBottomOfPage() throws InterruptedException {
 		System.setProperty("webdriver.gecko.driver","C:\\Selenium\\geckodriver-64bit\\geckodriver.exe");
 		WebDriver driver = new FirefoxDriver();	
 

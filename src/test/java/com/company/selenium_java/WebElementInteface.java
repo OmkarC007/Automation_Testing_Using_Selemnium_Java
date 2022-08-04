@@ -8,7 +8,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.Color;
 import org.testng.annotations.Test;
 
-public class TextBoxAndRemoveValue {
+public class WebElementInteface {
 	@Test
 	public void AddValueInTextBox_AndRemove() throws InterruptedException{
 		System.setProperty("webdriver.gecko.driver","C:\\Selenium\\geckodriver-64bit\\geckodriver.exe");
@@ -20,7 +20,7 @@ public class TextBoxAndRemoveValue {
 		driver.switchTo().activeElement().sendKeys("admin");
 	}
 	@Test 
-	public void RemoveElementFromTextBox() throws InterruptedException {
+	public void RemoveValueSFromTextBox() throws InterruptedException {
 		System.setProperty("webdriver.gecko.driver","C:\\Selenium\\geckodriver-64bit\\geckodriver.exe");
 		WebDriver driver = new FirefoxDriver();	
 		driver.get("https://www.facebook.com/");

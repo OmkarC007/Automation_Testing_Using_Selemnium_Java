@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.company.selenium_java.JS_Executors">
+      <class name="com.company.selenium_java.Action_Class_Methods">
         <methods>
-          <include name="ScrollDownTo_SpecificElemnt"/>
+          <include name="launch"/>
+          <include name="gmail_contextClick_mailArchive"/>
         </methods>
-      </class> <!-- com.company.selenium_java.JS_Executors -->
+      </class> <!-- com.company.selenium_java.Action_Class_Methods -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

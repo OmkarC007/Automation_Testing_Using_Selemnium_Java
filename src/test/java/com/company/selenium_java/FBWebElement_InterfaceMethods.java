@@ -6,7 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.Test;
 
-public class FBWebElement_InterfaceMethods {
+public class FBWebElement_InterfaceMethods { 
 	@Test
 	public void  VerifyFB_UNandPWDfieldsAreAligned_intheSameRow() throws InterruptedException {
 		System.setProperty("webdriver.gecko.driver","C:\\Selenium\\geckodriver-64bit\\geckodriver.exe");
