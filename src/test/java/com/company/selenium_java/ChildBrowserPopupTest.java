@@ -12,7 +12,7 @@ public class ChildBrowserPopupTest {
 	
 	public static WebDriver driver;
 	@BeforeTest
-	public void launch() {
+	public void launch() { 
 		System.setProperty("webdriver.gecko.driver","C:\\Selenium\\geckodriver-64bit\\geckodriver.exe");
 	    driver = new FirefoxDriver();
 	}
